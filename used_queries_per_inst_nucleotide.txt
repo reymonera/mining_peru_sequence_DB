@@ -1,0 +1,202 @@
+Se aplicaron los siguientes queries para cada institución (recordar que el código awk vuelve todo el archivo a mayúsculas):
+
+Universidad Nacional de San Agustín
+
+SAINT AUGUSTINE	1
+SAN AGUSTIN	51
+SAINT AGUSTIN	3
+
+*No uso UNSA porque en algunas líneas aparece que "Universidad" y "UNSA" están en la misma línea. Parece que sería redundante.
+
+Universidad Nacional Agraria de la Selva
+
+UNAS	68
+
+Universidad Nacional Mayor de San Marcos
+
+NACIONAL MAYOR	4972
+UNMSM 21
+
+Instituto Nacional de Innovación Agraria
+
+AGRARIAN INNOVATION	1188
+INNOVACION AGRARIA	2
+
+Instituto Nacional de Salud
+
+NACIONAL DE SALUD 3654
+INSTITUTE OF HEALTH	45
+
+*Hay muchos National Institutos, imposible ubicarlos todos.
+
+FARVET
+
+FARVET	885
+
+Universidad Peruana Cayetano Heredia
+
+CAYETANO HEREDIA	670
+
+*Incluiría también a todos los que usaron "Cayetano Heredia University"
+
+Universidad Privada Antenor Orrego
+
+ANTENOR ORREGO	5
+
+International Potato Center
+
+POTATO CENTER	421
+
+*CIP redunda en POTATO CENTER.
+*un grep comprueba que POTATO CENTER incluye CIP
+
+Hospital Guillermo Almenara
+
+ALMENARA	51
+
+Bioservice SRL
+
+BIOSERVICE	7
+
+Universidad Católica de Santa María
+
+SANTA MARIA	27
+SAINT MARY	1
+SAINT MARIA	1
+
+Instituto de Investigaciones de la Amazonía Peruana
+
+IIAP	784
+URB. MARTINEZ DE COMPANON	90
+
+
+*Imposible buscar con "Amazonia"
+
+Universidad Nacional Federico Villareal
+
+FEDERICO	2
+
+Universidad Nacional del Santa
+
+DEL SANTA	60
+
+Instituto de Patología y Biología Molecular Arias Stella
+
+ARIAS STELLA	3
+
+Instituto Peruano de Biologia Molecular
+
+PERUANO DE BIOLOGIA MOLECULAR	2
+INSTITUTO PERUANO	1
+
+Universidad San Martín de Porres
+
+UNIVERSIDAD DE SAN MARTIN	351
+UNIVERSIDAD SAN MARTIN	5
+
+Universidad Nacional de San Martin
+
+AMORARCA 57
+
+Universidad Nacional de Tumbes / INCABIOTEC
+
+TUMBES	371
+INCABIOTEC 145
+
+Universidad Científica del Perú
+
+CIENTIFICA DEL PERU	19
+
+Universidad Nacional de San Anotnio Abad del Cusco
+
+ANTONIO ABAD	258
+
+Universidad Nacional Santiago Antunez de Mayolo
+
+SANTIAGO ANTUNEZ	31
+
+Universidad Nacional de la Amazonia Peruana
+
+UNIVERSIDAD NACIONAL DE LA AMAZONIA PERUANA	9
+
+*Se confunde con el Instituto. Imposible ubicar aquellos que estén separados por línea.
+
+Biotec-CMC (Trujillo)
+
+BIOTEC-CMC	31
+
+Universidad Nacional de Cajamarca
+
+NACIONAL DE CAJAMARCA	2
+
+Universidad Nacional Pedro Ruiz Gallo
+
+PEDRO RUIZ	24
+
+SENASA
+
+SENASA	80
+
+Universidad Nacional Agraria La Molina
+
+UNALM	2
+AGRARIA LA MOLINA	387
+
+*Siento que aquí es dónde más se ha perdido. No hallo forma de buscar específicamente
+
+Instituto del Mar del Perú
+
+MAR DEL PERU	74
+
+NAMRU
+
+NAMRU-6	502
+
+*Siento que esto nos da más indicativos de lo que se hizo en Perú. De todos modos, Naval Medical da 4184 resultados. Muchas muestras fueron secuenciadas en los EEUU
+
+Universidad Nacional Santo Toribio de Mogrovejo
+
+TORIBIO	6
+
+Next-biotics
+
+NEXT-BIOTICS	10
+
+Universidad Nacional de Trujillo
+
+NACIONAL DE TRUJILLO	12
+
+Universidad Nacional del Centro del Perú
+
+NACIONAL DEL CENTRO	11
+
+Quimtia S.A.C.
+
+QUIMTIA	12
+
+Biodes S.R.L.
+
+BIODES	6
+
+Sociedad Científica de Astrobiología del Perú
+
+ASTROBIOLOGIA	2
+
+Universidad Científica del Sur
+
+CIENTIFICA DEL SUR 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
