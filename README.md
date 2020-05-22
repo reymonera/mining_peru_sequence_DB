@@ -16,7 +16,7 @@ This repository contains all data related to the paper "Data mining of DNA seque
 
 Scripts used in this study can be run using Jupyter notebooks with a bash kernel on Binder:
 
-[![Binder](https://mybinder.org/badge.svg)](https://gesis.mybinder.org/binder/v2/gh/reymonera/mining_peru_sequence_DB/ec09d12a55831676d8b3f881978dd6ecc4fdfe4c?filepath=mining_peruvian_sequences.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reymonera/mining_peru_sequence_DB/master)
 
 BinderBash used from here: https://github.com/gjbex/BinderBash.
 
